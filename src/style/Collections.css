@@ -1,0 +1,142 @@
+.header{
+    width:auto;
+}
+.rectangle {
+    width: 100%;
+    height: 308px;
+    top: 113px;
+}
+
+.ktiba {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.optionsList {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.optionsList li {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.optionsList label {
+    margin-left: 8px;
+}
+
+.box8 {
+    position: relative; /* Add this to allow absolute positioning of optionsList */
+}
+
+.sort {
+    display: flex;
+}
+
+.sortBy {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+.expand {
+    width: 12px;
+    height: 7.4px;
+    top: 7.97px;
+    left: 6px;
+    display: flex;
+}
+
+.pics {
+    display: flex;
+    width: 900px;
+    height: 1158px;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.leftSide {
+    width: 216px;
+    height: 50px;
+    top: 529px;
+    left: 76px;
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box8 {
+    width:216px;
+    height: 54px;
+    gap: 50px;
+    display: flex;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+.add {
+    width: 18px;
+    height: 18px;
+    display: flex;
+}
+
+.line {
+    display: flex;
+    width: 170px;
+    border: 1px;
+}
+
+.optionsList {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    text-align: left;
+    text-decoration: none;
+    align-content: start;
+    list-style-type: none;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+   
+}

@@ -1,0 +1,71 @@
+.NavbarItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: 70px;
+  padding: 10px 20px; /* Adjusted padding for smaller screens */
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1; /* Set a higher z-index for the navbar */
+}
+
+.logo {
+  font-family: "prosto one";
+  font-size: 20px; /* Corrected 'size' property */
+  line-height: 20px;
+  text-align: center;
+}
+
+.jspp {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  gap: 8px;
+}
+
+.nav-menu,
+.icons-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Changed display to flex for easier responsiveness */
+  justify-content: center; /* Center align menu items */
+}
+
+.nav-menu li,
+.icons-menu li {
+  margin: 0 10px; /* Adjusted margin for smaller screens */
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(36, 2, 7);
+  font-family: "montserrat";
+  padding: 12px 10px; /* Adjusted padding */
+  border: 1px solid transparent; /* Added border for better visibility */
+  transition: border-color 0.3s ease; /* Added transition effect */
+}
+
+.nav-links:hover {
+  border-color: #ffb400; /* Change border color on hover */
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .NavbarItems {
+      flex-direction: column;
+      height: auto;
+      padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .nav-menu,
+  .icons-menu {
+      margin-top: 10px; /* Adjusted margin for smaller screens */
+  }
+
+  .nav-menu li,
+  .icons-menu li {
+      margin: 10px 0; /* Adjusted margin for smaller screens */
+  }
+}

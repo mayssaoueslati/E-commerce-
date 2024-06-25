@@ -1,0 +1,16 @@
+/* App.css */
+/* Add styles for the entire app */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Add padding to create space below the navigation bar */
+  .HomePage {
+    padding-top: 120px; /* Adjust the value as needed */
+  }
+.App{
+  width : 100%;
+}
